@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+<section class="hero">
+    <h1>Welcome to {{ .Site.Params.organizationName }}</h1>
+    <p>{{ .Content }}</p>
+    <div class="btn-group">
+        <a href="/membership/" class="btn btn-secondary">Become a Member</a>
+        <a href="/volunteers/" class="btn btn-secondary">Volunteer With Us</a>
+        <a href="/donors/" class="btn btn-secondary">Support Our Work</a>
+    </div>
+</section>
+
+<section>
+    <h2>Our Mission</h2>
+    <div class="grid grid-3">
+        <div class="card">
+            <h3>🌱 Community Growth</h3>
+            <p>Supporting local initiatives that strengthen our rural community and preserve our heritage.</p>
+        </div>
+        <div class="card">
+            <h3>🤝 Together We Thrive</h3>
+            <p>Bringing people together through projects, events, and shared goals for our district.</p>
+        </div>
+        <div class="card">
+            <h3>🏡 Local Impact</h3>
+            <p>Making a real difference in Ceres and surrounding areas through practical community action.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Latest News & Updates</h2>
+    <div class="grid grid-2">
+        {{ range first 4 (where .Site.RegularPages "Section" "news") }}
+        <div class="card">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p class="text-light" style="font-size: 0.875rem;">{{ .Date.Format "2 January 2006" }}</p>
+            <p>{{ .Summary }}</p>
+            <a href="{{ .Permalink }}">Read more &rarr;</a>
+        </div>
+        {{ else }}
+        <div class="card">
+            <h3>Welcome to CDCT</h3>
+            <p>Check back soon for news and updates about our community projects and events.</p>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<section>
+    <h2>Current Projects</h2>
+    <div class="grid grid-2">
+        {{ range first 3 (where .Site.RegularPages "Section" "projects") }}
+        <div class="card">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary }}</p>
+            <a href="{{ .Permalink }}">Learn more &rarr;</a>
+        </div>
+        {{ else }}
+        <div class="card">
+            <h3>More Projects Coming Soon</h3>
+            <p>We're working on exciting new initiatives for our community. Stay tuned!</p>
+        </div>
+        {{ end }}
+    </div>
+    <div class="text-center mt-2">
+        <a href="/projects/" class="btn btn-primary">View All Projects</a>
+    </div>
+</section>
+
+{{ end }}

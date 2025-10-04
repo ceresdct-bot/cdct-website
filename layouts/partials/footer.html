@@ -1,0 +1,30 @@
+<footer>
+    <div class="footer-container">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h4>{{ .Site.Params.organizationName }}</h4>
+                <p>A registered charity serving the rural community of Ceres and the surrounding district.</p>
+                <p><strong>Charity Registration:</strong> [Your Number]</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: {{ .Site.Params.email }}</p>
+                <p>Ceres, Fife, Scotland</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; {{ now.Year }} {{ .Site.Params.organizationName }}. All rights reserved. | <a href="/admin/" style="color: rgba(255,255,255,0.8);">Admin Login</a></p>
+        </div>
+    </div>
+</footer>

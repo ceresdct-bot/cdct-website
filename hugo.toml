@@ -1,0 +1,52 @@
+baseURL = 'https://your-site.netlify.app/'
+languageCode = 'en-gb'
+title = 'Ceres & District Community Trust'
+theme = ''
+
+[params]
+  description = 'A rural community charity serving Ceres and the surrounding district'
+  organizationName = 'Ceres & District Community Trust'
+  shortName = 'CDCT'
+  email = 'info@cdct.org.uk'
+  
+  # Membership pricing
+  lifetimeMembership = 5.00
+  annualMembership = 15.00
+  currency = 'GBP'
+  currencySymbol = '£'
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 2
+  
+  [[menu.main]]
+    name = 'Projects'
+    url = '/projects/'
+    weight = 3
+  
+  [[menu.main]]
+    name = 'Volunteers'
+    url = '/volunteers/'
+    weight = 4
+  
+  [[menu.main]]
+    name = 'Membership'
+    url = '/membership/'
+    weight = 5
+  
+  [[menu.main]]
+    name = 'Donors'
+    url = '/donors/'
+    weight = 6
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
