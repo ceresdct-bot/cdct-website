@@ -46,6 +46,8 @@ The Trust operates according to our constitution and follows charity best practi
 
 **Charity Registration Number**: SC047353
 
+![OSCR Logo](/images/uploads/small-blue.jpg)
+
 ## Contact the Committee
 
 Have questions or suggestions? We'd love to hear from you.
