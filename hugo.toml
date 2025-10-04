@@ -1,7 +1,7 @@
 baseURL = 'https://your-site.netlify.app/'
 languageCode = 'en-gb'
 title = 'Ceres & District Community Trust'
-theme = ''
+# theme = ''
 
 [params]
   description = 'A rural community charity serving Ceres and the surrounding district'
