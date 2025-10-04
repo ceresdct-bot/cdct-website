@@ -23,20 +23,20 @@ The CDCT is governed by a dedicated committee of local volunteers who give their
 
 ### Current Committee Members
 
-**Chair**: \[Name]\
-\[Brief bio or role description]
+**Chair**: Florian Dargel
 
-**Treasurer**: \[Name]\
-\[Brief bio or role description]
+**Treasurer**: Raymond Hutt
 
-**Secretary**: \[Name]\
-\[Brief bio or role description]
+**Secretary**: Susan Beveridge
 
 **Committee Members**:
 
-* \[Name] - \[Role/Focus]
-* \[Name] - \[Role/Focus]
-* \[Name] - \[Role/Focus]
+* Alistair Ewan
+* Dave Jones-Lofting
+* Hugh Stewart
+* Bill Marr
+* Anne Lumsden
+* Adam Waldie
 
 *The committee meets regularly to oversee projects, manage finances, and plan for the future. If you're interested in joining the committee, please get in touch.*
 
@@ -44,11 +44,11 @@ The CDCT is governed by a dedicated committee of local volunteers who give their
 
 The Trust operates according to our constitution and follows charity best practices. We hold an Annual General Meeting where members can hear about our work and help shape our future direction.
 
-**Charity Registration Number**: \[Your Registration Number]
+**Charity Registration Number**: SC047353
 
 ## Contact the Committee
 
 Have questions or suggestions? We'd love to hear from you.
 
 **Email**: ceresdct@gmail.com\
-**Post**: Ceres & District Community Trust, Ceres, Fife, Scotland
+**Post**: Ceres & District Community Trust, 59 Bonnygate, Cupar, Fife, KY15 4BY
